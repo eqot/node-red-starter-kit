@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "node-red": "^0.13.3"
+  },
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/node-red/bin/node-red-pi --settings settings.js",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
