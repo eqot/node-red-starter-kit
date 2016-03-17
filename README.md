@@ -36,7 +36,7 @@ $ npm start
 
 Then local server is up and running at http://localhost:1880/.
 
-If you want to include all changes in this git repository, run followings instead of the above commands.
+If you want to follow all changes in this git repository, run followings instead of the above commands.
 
 ```
 $ mkdir myFlow
@@ -45,6 +45,8 @@ $ git init
 $ git remote add upstream https://github.com/eqot/node-red-starter-kit.git
 $ git fetch upstream master
 $ git merge upstream/master
+$ npm install
+$ npm start
 ```
 
 By running git fetch and merge, you can get the latest code.
