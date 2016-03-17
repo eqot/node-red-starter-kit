@@ -17,6 +17,7 @@
 // The `https` setting requires the `fs` module. Uncomment the following
 // to make it available:
 //var fs = require("fs");
+var path = require('path');
 
 module.exports = {
     // the tcp port that the Node-RED web server is listening on
@@ -57,7 +58,7 @@ module.exports = {
     // By default, all user data is stored in the Node-RED install directory. To
     // use a different location, the following property can be used
     //userDir: '/home/nol/.node-red/',
-    userDir: './data/',
+    userDir: path.resolve(__dirname, 'data'),
 
     // Node-RED scans the `nodes` directory in the install directory to find nodes.
     // The following property can be used to specify an additional directory to scan.
