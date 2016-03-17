@@ -30,7 +30,7 @@ This enables to make flows potable and also run multiple flows on a single machi
 * External nodes integration
   * Run ```npm install XXX --save``` for the external node to be available in the Node-RED editor
 * Auto restart
-  * Run ```npm run dev``` to watch changes under ```data``` directory and restart the Node-RED server when changed
+  * Run ```npm run dev``` to watch changes under ```data``` directory and automatically restart the Node-RED server when changed
 * Lint
   * Run ```npm run lint``` with [ESLint](http://eslint.org/)
 
