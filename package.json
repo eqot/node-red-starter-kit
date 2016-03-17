@@ -7,7 +7,7 @@
   },
   "private": true,
   "scripts": {
-    "start": "./node_modules/node-red/bin/node-red-pi --settings settings.js",
+    "start": "node ./node_modules/node-red/red.js --settings settings.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
