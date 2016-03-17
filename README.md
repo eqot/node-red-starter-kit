@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Node-RED Starter Kit](http://code.sonyericsson.net/node-red/node-red-starter-kit)
+[Node-RED Starter Kit](https://github.com/eqot/node-red-starter-kit)
 is a boilerplate for IoT development with [Node-RED](http://nodered.org/).
 
 
